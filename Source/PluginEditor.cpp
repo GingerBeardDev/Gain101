@@ -19,8 +19,8 @@ Gain101AudioProcessorEditor::Gain101AudioProcessorEditor (Gain101AudioProcessor&
     
     mGainSlider.setSliderStyle(juce::Slider::SliderStyle::LinearVertical);
     mGainSlider.setTextBoxStyle(juce::Slider::TextEntryBoxPosition::TextBoxBelow, true, 50, 20);
-    mGainSlider.setRange(-60.0f, 6.0f, 0.01f);
-    mGainSlider.setValue(-10.0f);
+    mGainSlider.setRange(-90.0f, 12.0f, 0.01f);
+    mGainSlider.setValue(-5.0f);
     mGainSlider.addListener(this);
     addAndMakeVisible(mGainSlider);
     
